@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="266.0" prefWidth="348.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.au.cpsc.SplitPaneController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <children>
+      <SplitPane dividerPositions="0.25, 0.5" prefHeight="200.0" prefWidth="160.0">
+         <items>
+            <VBox>
+               <children>
+                  <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Button" />
+                  <Button mnemonicParsing="false" text="Button" />
+               </children>
+            </VBox>
+            <HBox>
+               <children>
+                  <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Button" />
+                  <ColorPicker />
+               </children>
+            </HBox>
+            <VBox>
+               <children>
+                  <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Button" />
+                  <Button mnemonicParsing="false" text="Button" />
+               </children>
+            </VBox>
+         </items>
+      </SplitPane>
+   </children>
+</VBox>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1"
+  fx:controller="edu.au.cpsc.customevents.CustomerSummaryApplicationController">
+  <bottom>
+    <fx:include fx:id="customerDetailEditor" source="customer-detail-editor.fxml"/>
+  </bottom>
+  <center>
+    <fx:include fx:id="customerTableView" source="customer-table-view.fxml"/>
+  </center>
+
+</BorderPane>

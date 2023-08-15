@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Accordion xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.au.cpsc.accordiondemo.AccordionController">
+  <panes>
+    <TitledPane animated="false" text="Pane1">
+      <content>
+        <VBox prefHeight="200.0" prefWidth="100.0" spacing="5.0">
+          <children>
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+            <CheckBox mnemonicParsing="false" text="CheckBox" />
+          </children>
+        </VBox>
+      </content>
+    </TitledPane>
+    <TitledPane animated="false" text="Pane2">
+      <content>
+        <VBox prefHeight="200.0" prefWidth="100.0" spacing="5.0">
+          <children>
+            <Label text="Label" />
+            <DatePicker />
+          </children>
+            </VBox>
+      </content>
+    </TitledPane>
+    <TitledPane animated="false" text="Pane3">
+      <content>
+        <VBox prefHeight="200.0" prefWidth="100.0" spacing="5.0">
+          <children>
+            <ComboBox prefWidth="150.0" />
+            <ColorPicker />
+          </children>
+            </VBox>
+      </content>
+    </TitledPane>
+      <TitledPane animated="false" text="untitled">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+        </content>
+      </TitledPane>
+      <TitledPane prefHeight="200.0" prefWidth="200.0" />
+  </panes>
+</Accordion>

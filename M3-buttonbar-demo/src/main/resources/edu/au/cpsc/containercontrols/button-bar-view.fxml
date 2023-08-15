@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.au.cpsc.containercontrols.ButtonBarDemoController">
+   <top>
+   
+        <Label fx:id="welcomeText" BorderPane.alignment="CENTER" />
+   </top>
+   <bottom>
+      <ButtonBar fx:id="buttonBar" prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <buttons>
+            <Button fx:id="cancelButton" cancelButton="true" mnemonicParsing="false" onAction="#cancelButtonAction" text="Cancel" />
+            <Button fx:id="helpButton" mnemonicParsing="false" text="Help" />
+          <Button fx:id="okButton" defaultButton="true" mnemonicParsing="false" onAction="#okButtonAction" text="Ok" />
+        </buttons>
+         <BorderPane.margin>
+            <Insets left="5.0" right="5.0" />
+         </BorderPane.margin>
+      </ButtonBar>
+   </bottom>
+   <center>
+     <Button onAction="#onHelloButtonClick" text="Hello!" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

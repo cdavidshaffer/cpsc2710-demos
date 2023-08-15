@@ -1,0 +1,12 @@
+@import "https://fonts.googleapis.com/css2?family=Heebo";
+@import "https://fonts.googleapis.com/css2?family=Pacifico";
+
+#label1 {
+  -fx-font-family: "Heebo";
+  -fx-font-size: 42pt;
+}
+
+#label2 {
+  -fx-font-family: "Pacifico";
+  -fx-font-size: 42pt;
+}
