@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.au.cpsc.composingviews.CustomerListViewController">
+  <center>
+    <ListView fx:id="personList" minHeight="100.0" minWidth="200.0" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+  </center>
+  <padding>
+    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+  </padding>
+   <bottom>
+      <fx:include fx:id="customerDetailEditor" source="customer-detail-editor.fxml" />
+   </bottom>
+</BorderPane>
