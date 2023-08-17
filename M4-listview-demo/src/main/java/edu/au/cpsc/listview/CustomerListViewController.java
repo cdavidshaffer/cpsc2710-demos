@@ -1,4 +1,4 @@
-package edu.au.cpsc.composingviews;
+package edu.au.cpsc.listview;
 
 import javafx.collections.FXCollections;
 import javafx.fxml.FXML;
@@ -17,8 +17,13 @@ public class CustomerListViewController {
   private ListView<Customer> personList;
 
   @FXML
-  private CustomerDetailViewController customerDetailViewController;
+  private TextField nameField;
 
+  @FXML
+  private TextField emailField;
+
+  @FXML
+  private TextField phoneNumberField;
 
   public void initialize() {
     personList.setItems(FXCollections.observableList(Customer.demoCustomers()));
@@ -28,8 +33,17 @@ public class CustomerListViewController {
   }
 
   private void listSelectionChanged() {
+    // show bug when noting selected
     Customer selectedCustomer = personList.getSelectionModel().getSelectedItem();
-    customerDetailViewController.showCustomer(selectedCustomer);
+    if (selectedCustomer == null) {
+      nameField.clear();
+      emailField.clear();
+      phoneNumberField.clear();
+      return;
+    }
+    nameField.setText(selectedCustomer.getName());
+    emailField.setText(selectedCustomer.getEmail());
+    phoneNumberField.setText(selectedCustomer.getPhoneNumber());
   }
 
   static class CustomerNameCell extends ListCell<Customer> {
