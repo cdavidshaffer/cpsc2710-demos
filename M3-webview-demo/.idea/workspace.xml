@@ -4,23 +4,96 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b03e9dc9-c9f0-4bbb-9ecc-f43e56dae80a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/webviewdemo/WebViewApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/webviewdemo/WebViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/webviewdemo/main-view.fxml" afterDir="false" />
+    <list default="true" id="9c1ecdaa-f1d9-4767-98de-3b50194db55f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../M3-calculator resizing/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M3-calculator resizing/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-calculator resizing/src/main/java/edu/au/cpsc/calculator/CalculatorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M3-calculator resizing/src/main/java/edu/au/cpsc/calculator/CalculatorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-calculator-goal/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-calculator-goal/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-calculator-goal/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-calculator-goal/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-calculator-goal/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-calculator-goal/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-calculator-goal/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-calculator-goal/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-calculator-goal/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-calculator-goal/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-calculator-goal/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-calculator-goal/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-calculator-goal/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-calculator-goal/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-calculator-goal/src/main/java/edu/au/cpsc/calculator/CalculatorApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-calculator-goal/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-piedemo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-piedemo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-piedemo/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-piedemo/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-piedemo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-piedemo/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-piedemo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-piedemo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-piedemo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-piedemo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-piedemo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-piedemo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-piedemo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-piedemo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-piedemo/src/main/java/edu/au/cpsc2710/piedemo/PieDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-piedemo/src/main/java/edu/au/cpsc2710/piedemo/PieDemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-piedemo/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-piedemo/src/main/resources/edu/au/cpsc2710/piedemo/pie-demo-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/webviewdemo/WebViewApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/webviewdemo/WebViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/webviewdemo/main-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-webviewdemo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-webviewdemo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-webviewdemo/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-webviewdemo/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-webviewdemo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-webviewdemo/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-webviewdemo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-webviewdemo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-webviewdemo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-webviewdemo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-webviewdemo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-webviewdemo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-webviewdemo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-webviewdemo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-webviewdemo/src/main/java/edu/au/cpsc/m3webviewdemo/WebBrowserApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-webviewdemo/src/main/java/edu/au/cpsc/m3webviewdemo/WebBrowserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-webviewdemo/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M3-webviewdemo/src/main/resources/edu/au/cpsc/m3webviewdemo/web-browser-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/src/main/java/edu/au/cpsc/composingviews/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/src/main/java/edu/au/cpsc/composingviews/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/src/main/java/edu/au/cpsc/composingviews/MainViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/src/main/java/edu/au/cpsc/composingviews/OtherViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/src/main/resources/edu/au/cpsc/composingviews/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/src/main/resources/edu/au/cpsc/composingviews/main-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views-play/src/main/resources/edu/au/cpsc/composingviews/other-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-composing-views/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views/src/main/java/edu/au/cpsc/composingviews/CustomerListViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-composing-views/src/main/java/edu/au/cpsc/composingviews/CustomerListViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views/src/main/java/edu/au/cpsc/composingviews/CustomerTableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-composing-views/src/main/java/edu/au/cpsc/composingviews/CustomerTableViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-listview-demo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-listview-demo/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,17 +101,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="2Shn0UYWx45AZtHGd1VEKoPcWlZ" />
+  <component name="ProjectId" id="2SiACn7Gw0gi7jt0JhYgsqSxmjF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,24 +113,25 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/shaffer/CPSC2710/Demos/M3-webview-demo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="WebViewApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.au.cpsc.webviewdemo.WebViewApplication" />
-      <module name="webview-demo" />
+    <configuration name="WebBrowserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.au.cpsc.m3webviewdemo.WebBrowserApplication" />
+      <module name="M3-webviewdemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.au.cpsc.webviewdemo.*" />
+          <option name="PATTERN" value="edu.au.cpsc.m3webviewdemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,16 +141,12 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WebViewApplication" />
+        <item itemvalue="Application.WebBrowserApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

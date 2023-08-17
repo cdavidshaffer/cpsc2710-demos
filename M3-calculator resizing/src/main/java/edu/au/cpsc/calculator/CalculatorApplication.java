@@ -6,18 +6,21 @@ import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.Background;
 import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Priority;
-import javafx.scene.layout.Region;
 import javafx.scene.layout.RowConstraints;
 import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 public class CalculatorApplication extends Application {
 
+  private static final boolean DEBUG_LAYOUT = false;
+
   private enum Operation {
-    NONE, PLUS, MINUS, TIMES, DIVIDE;
+    NONE, PLUS, MINUS, TIMES, DIVIDE
   }
 
   private TextField textField;
@@ -34,7 +37,10 @@ public class CalculatorApplication extends Application {
     textField.setEditable(false);
     GridPane buttonPane = createGridPane();
     VBox root = new VBox(textField, buttonPane);
+    VBox.setVgrow(textField, Priority.NEVER);
     VBox.setVgrow(buttonPane, Priority.ALWAYS);
+    if (DEBUG_LAYOUT)
+      root.setBackground(Background.fill(Color.BLUE));
     Scene scene = new Scene(root);
     stage.setTitle("CPSC Calculator");
     stage.setScene(scene);
@@ -43,10 +49,33 @@ public class CalculatorApplication extends Application {
 
   private GridPane createGridPane() {
     GridPane buttonPane = new GridPane();
+    if (DEBUG_LAYOUT)
+      buttonPane.setBackground(Background.fill(Color.RED));
     addNumericButtons(buttonPane);
     addOperatorButtons(buttonPane);
     addClearButtons(buttonPane);
+    configureButtonSizes(buttonPane);
+    configureGridConstraints(buttonPane);
     return buttonPane;
+  }
+
+  private void configureGridConstraints(GridPane buttonPane) {
+    for(int columnNumber=0; columnNumber < buttonPane.getColumnCount(); columnNumber++) {
+      ColumnConstraints cc = new ColumnConstraints();
+      cc.setPercentWidth(100);
+      buttonPane.getColumnConstraints().add(cc);
+    }
+    for(int rowNumber=0; rowNumber < buttonPane.getRowCount(); rowNumber++) {
+      RowConstraints rc = new RowConstraints();
+      rc.setPercentHeight(100);
+      buttonPane.getRowConstraints().add(rc);
+    }
+  }
+
+  private void configureButtonSizes(GridPane buttonPane) {
+    for(Node n: buttonPane.getChildren()) {
+      ((Button)n).setMaxSize(Double.MAX_VALUE, Double.MAX_VALUE);
+    }
   }
 
   private void addClearButtons(GridPane buttonPane) {

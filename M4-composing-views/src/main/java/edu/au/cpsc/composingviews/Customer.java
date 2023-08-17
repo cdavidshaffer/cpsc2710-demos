@@ -40,16 +40,4 @@ public class Customer {
   public String getPhoneNumber() {
     return phoneNumber;
   }
-
-  public void setName(String name) {
-    this.name = name;
-  }
-
-  public void setEmail(String email) {
-    this.email = email;
-  }
-
-  public void setPhoneNumber(String phoneNumber) {
-    this.phoneNumber = phoneNumber;
-  }
 }
