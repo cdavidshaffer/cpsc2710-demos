@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="646e26de-8cb3-437a-a0e0-964298fb934b" name="Changes" comment="Misc additions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/decoupling/CustomerEmailApplicationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/decoupling/CustomerTableApplicationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/decoupling/customer-email-app.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/decoupling/customer-table-app.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/decoupling/CustomerListViewApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/decoupling/CustomerEmailApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/decoupling/CustomerListViewController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/decoupling/CustomerTableViewApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/decoupling/CustomerTableApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/decoupling/CustomerTableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/decoupling/CustomerTableViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/decoupling/customer-list-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/decoupling/customer-table-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/decoupling/customer-table-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
