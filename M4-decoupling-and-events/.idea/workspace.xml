@@ -5,20 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="646e26de-8cb3-437a-a0e0-964298fb934b" name="Changes" comment="Misc additions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/composingviews/CustomerDetailViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/composingviews/CustomerTableViewApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/composingviews/CustomerTableViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/composingviews/customer-detail-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/composingviews/customer-table-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/decoupling/CustomerEmailApplicationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/decoupling/CustomerTableApplicationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/decoupling/customer-email-app.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/decoupling/customer-table-app.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/composingviews/CustomerListViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/composingviews/CustomerListViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/composingviews/customer-list-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/composingviews/customer-list-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-listview-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-listview-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-listview-demo/src/main/java/com/example/listviewdemo/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-listview-demo/src/main/java/edu/au/cpsc/listview/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-listview-demo/src/main/java/com/example/listviewdemo/ListViewDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-listview-demo/src/main/java/edu/au/cpsc/listview/CustomerListViewApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-listview-demo/src/main/java/com/example/listviewdemo/ListViewDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-listview-demo/src/main/java/edu/au/cpsc/listview/CustomerListViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-listview-demo/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-listview-demo/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-listview-demo/src/main/resources/com/example/listviewdemo/listview-demo-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-listview-demo/src/main/resources/edu/au/cpsc/listview/customer-list-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/decoupling/CustomerListViewApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/decoupling/CustomerEmailApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/decoupling/CustomerListViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/decoupling/CustomerTableViewApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/decoupling/CustomerTableApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/decoupling/CustomerTableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/decoupling/CustomerTableViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/decoupling/customer-list-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/decoupling/customer-table-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/decoupling/customer-table-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="FxmlFile" />
         <option value="Class" />
       </list>
@@ -50,8 +48,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_directory_selection": "/Users/shaffer/CPSC2710/Demos/M4-composing-views/src/main/java/edu/au/cpsc/composingviews",
-    "last_opened_file_path": "/Users/shaffer/CPSC2710/Demos/M4-composing-views/src/main/resources/edu/au/cpsc/composingviews",
+    "last_directory_selection": "/Users/shaffer/CPSC2710/Demos/M4-decoupling-and-events/src/main/java/edu/au/cpsc/decoupling",
+    "last_opened_file_path": "/Users/shaffer/CPSC2710/Demos/M4-decoupling-and-events",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,14 +63,20 @@
       <recent name="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/composingviews" />
       <recent name="$PROJECT_DIR$/src/main/java/edu/au/cpsc/composingviews" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="edu.au.cpsc.decoupling" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.au.cpsc.decoupling" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.CustomerTableViewApplication">
-    <configuration name="CustomerListViewApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.au.cpsc.composingviews.CustomerListViewApplication" />
-      <module name="composingviews" />
+  <component name="RunManager" selected="Application.CustomerTableApplication">
+    <configuration name="CustomerEmailApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.au.cpsc.decoupling.CustomerEmailApplication" />
+      <module name="decoupling" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.au.cpsc.composingviews.*" />
+          <option name="PATTERN" value="edu.au.cpsc.decoupling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +84,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTableViewApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.au.cpsc.composingviews.CustomerTableViewApplication" />
-      <module name="composingviews" />
+    <configuration name="CustomerListViewApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.au.cpsc.decoupling.CustomerListViewApplication" />
+      <module name="decoupling" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.au.cpsc.composingviews.*" />
+          <option name="PATTERN" value="edu.au.cpsc.decoupling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTableApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.au.cpsc.decoupling.CustomerTableApplication" />
+      <module name="decoupling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.au.cpsc.decoupling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,7 +125,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CustomerTableViewApplication" />
+        <item itemvalue="Application.CustomerTableApplication" />
+        <item itemvalue="Application.CustomerEmailApplication" />
         <item itemvalue="Application.CustomerListViewApplication" />
       </list>
     </recent_temporary>

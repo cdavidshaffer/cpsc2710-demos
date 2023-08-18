@@ -3,15 +3,14 @@ package edu.au.cpsc.decoupling;
 
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.SortedList;
+import javafx.event.Event;
+import javafx.event.EventType;
 import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 public class CustomerTableViewController  {
-
-  @FXML
-  private CustomerDetailViewController customerDetailViewController;
 
   @FXML
   private TableView<Customer> customerTableView;
@@ -33,7 +32,29 @@ public class CustomerTableViewController  {
 
   private void tableSelectionChanged() {
     Customer selectedCustomer = customerTableView.getSelectionModel().getSelectedItem();
-    customerDetailViewController.showCustomer(selectedCustomer);
+    CustomerTableEvent event = new CustomerTableEvent(CustomerTableEvent.CUSTOMER_SELECTED,
+        selectedCustomer);
+    customerTableView.fireEvent(event);
   }
+
+  public static class CustomerTableEvent extends Event {
+
+    public static final EventType<CustomerTableEvent> ANY = new EventType<>(Event.ANY, "ANY");
+
+    public static final EventType<CustomerTableEvent> CUSTOMER_SELECTED = new EventType<>(ANY, "CUSTOMER_SELECTED");
+
+    private Customer selectedCustomer;
+
+    public CustomerTableEvent(EventType<? extends Event> eventType, Customer selectedCustomer) {
+      super(eventType);
+      this.selectedCustomer = selectedCustomer;
+    }
+
+    public Customer getSelectedCustomer() {
+      return selectedCustomer;
+    }
+
+  }
+
 }
 
