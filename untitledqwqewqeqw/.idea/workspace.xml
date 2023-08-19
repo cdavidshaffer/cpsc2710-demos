@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fd787910-292e-4d37-948f-6f2b6c9f7258" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../M4-customerdb-p2/src/main/java/edu/au/cpsc/customer/data/CustomerDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M4-customerdb-p2/src/main/java/edu/au/cpsc/customer/data/CustomerDatabaseIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M4-customerdb-p2/src/test/java/edu/au/cpsc/customer/database/CustomerDatabaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M4-customerdb-p2/src/test/java/edu/au/cpsc/customer/database/CustomerIOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/java/edu/au/cpsc/customer/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/java/edu/au/cpsc/customer/CustomerDetailEditorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/java/edu/au/cpsc/customer/CustomerSummaryApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/java/edu/au/cpsc/customer/CustomerSummaryApplicationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/java/edu/au/cpsc/customer/CustomerTableViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/resources/edu/au/cpsc/customer/customer-detail-editor.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/resources/edu/au/cpsc/customer/customer-summary-app.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/resources/edu/au/cpsc/customer/customer-table-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-decoupling-and-events/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-decoupling-and-events/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2UAT2IPhgWt0dQlmn73xtwyeuXu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
