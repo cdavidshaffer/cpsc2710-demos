@@ -4,38 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="646e26de-8cb3-437a-a0e0-964298fb934b" name="Changes" comment="Misc additions">
-      <change afterPath="$PROJECT_DIR$/../M4-cleaning-up/src/test/java/edu/au/cpsc/customer/CustomerTest.java" afterDir="false" />
+    <list default="true" id="2687ed64-f3f9-4967-a9e2-087606ab907c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/data/CustomerDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/data/CustomerDatabaseIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../M4-cleaning-up/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-cleaning-up/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/CustomerDetailViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/CustomerDetailViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/CustomerEmailApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/CustomerEmailApplicationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/CustomerTableApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/CustomerSummaryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/CustomerTableApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/CustomerSummaryApplicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/CustomerTableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/CustomerTableViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-cleaning-up/src/main/resources/edu/au/cpsc/customer/customer-email-app.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-cleaning-up/src/main/resources/edu/au/cpsc/customer/customer-table-app.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-cleaning-up/src/main/resources/edu/au/cpsc/customer/customer-summary-app.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/CustomerDetailViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/controller/CustomerDetailViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/CustomerSummaryApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/controller/CustomerSummaryApplicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/CustomerTableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/controller/CustomerTableViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/customer/customer-detail-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/customer/view/customer-detail-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/customer/customer-summary-app.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/customer/customer-summary-app.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/customer/customer-table-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/customer/view/customer-table-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/au/cpsc/customer/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/au/cpsc/customer/CustomerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="FxmlFile" />
-        <option value="Class" />
-        <option value="JUnit5 Test Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2U7mTH1HWIXjYexkWUQ2iP2QVzH" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2UJ0Fp346JPifsVmHrwZWN01WOK" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -48,77 +50,26 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
-    "last_directory_selection": "/Users/shaffer/CPSC2710/Demos/M4-decoupling-and-events/src/main/java/edu/au/cpsc/decoupling",
-    "last_opened_file_path": "/Users/shaffer/CPSC2710/Demos/M4-customer-database",
+    "last_opened_file_path": "/Users/shaffer/CPSC2710/Demos/M4-customer-database/src/main/java/edu/au/cpsc/customer/sampledata",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "advanced.settings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/composingviews" />
-      <recent name="$PROJECT_DIR$/src/main/java/edu/au/cpsc/composingviews" />
+      <recent name="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/sampledata" />
+      <recent name="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/data" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="edu.au.cpsc.decoupling" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="edu.au.cpsc.customer" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="edu.au.cpsc.decoupling" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/customer/view" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CustomerSummaryApplication">
-    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.au.cpsc.customer.Customer" />
-      <module name="cleaningup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.au.cpsc.customer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerEmailApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.au.cpsc.customer.CustomerEmailApplication" />
-      <module name="cleaningup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.au.cpsc.customer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerListViewApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.au.cpsc.decoupling.CustomerListViewApplication" />
-      <module name="cleaningup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.au.cpsc.customer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="CustomerSummaryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.au.cpsc.customer.CustomerSummaryApplication" />
       <module name="cleaningup" />
@@ -132,50 +83,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cleaningup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.au.cpsc.customer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.au.cpsc.customer" />
-      <option name="MAIN_CLASS_NAME" value="edu.au.cpsc.customer.CustomerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="M4-composing-views" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="M4-composing-views" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.CustomerSummaryApplication" />
-        <item itemvalue="Application.CustomerEmailApplication" />
-        <item itemvalue="JUnit.CustomerTest" />
-        <item itemvalue="Application.Customer" />
-        <item itemvalue="Application.CustomerListViewApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Misc additions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Misc additions" />
   </component>
 </project>

@@ -1,5 +1,6 @@
-package edu.au.cpsc.customer;
+package edu.au.cpsc.customer.controller;
 
+import edu.au.cpsc.customer.model.Customer;
 import javafx.fxml.FXML;
 
 public class CustomerSummaryApplicationController {

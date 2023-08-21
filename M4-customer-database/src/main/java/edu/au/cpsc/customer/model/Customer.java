@@ -1,4 +1,4 @@
-package edu.au.cpsc.customer;
+package edu.au.cpsc.customer.model;
 
 import java.util.List;
 import java.util.Objects;

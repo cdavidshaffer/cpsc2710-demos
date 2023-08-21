@@ -1,6 +1,7 @@
-package edu.au.cpsc.customer;
+package edu.au.cpsc.customer.controller;
 
 
+import edu.au.cpsc.customer.model.Customer;
 import java.util.List;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.SortedList;

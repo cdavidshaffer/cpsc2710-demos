@@ -2,6 +2,7 @@ package edu.au.cpsc.customer;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import edu.au.cpsc.customer.model.Customer;
 import org.junit.jupiter.api.Test;
 
 class CustomerTest {
