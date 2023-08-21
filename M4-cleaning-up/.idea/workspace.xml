@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="646e26de-8cb3-437a-a0e0-964298fb934b" name="Changes" comment="Misc additions">
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/java/edu/au/cpsc/customer/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/java/edu/au/cpsc/customer/CustomerDetailEditorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/java/edu/au/cpsc/customer/CustomerSummaryApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/java/edu/au/cpsc/customer/CustomerSummaryApplicationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/java/edu/au/cpsc/customer/CustomerTableViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/resources/edu/au/cpsc/customer/customer-detail-editor.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/resources/edu/au/cpsc/customer/customer-summary-app.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/resources/edu/au/cpsc/customer/customer-table-view.fxml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2U7mTH1HWIXjYexkWUQ2iP2QVzH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/shaffer/CPSC2710/Demos/M4-decoupling-and-events/src/main/java/edu/au/cpsc/decoupling&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shaffer/CPSC2710/Demos/M4-decoupling-and-events&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/composingviews" />
+      <recent name="$PROJECT_DIR$/src/main/java/edu/au/cpsc/composingviews" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="edu.au.cpsc.decoupling" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.au.cpsc.decoupling" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CustomerTableApplication">
+    <configuration name="CustomerEmailApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.au.cpsc.customer.CustomerEmailApplication" />
+      <module name="cleaningup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.au.cpsc.customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerListViewApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.au.cpsc.decoupling.CustomerListViewApplication" />
+      <module name="cleaningup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.au.cpsc.customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTableApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.au.cpsc.customer.CustomerTableApplication" />
+      <module name="cleaningup" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.au.cpsc.customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="M4-composing-views" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="M4-composing-views" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CustomerTableApplication" />
+        <item itemvalue="Application.CustomerEmailApplication" />
+        <item itemvalue="Application.CustomerListViewApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Misc additions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Misc additions" />
+  </component>
+</project>

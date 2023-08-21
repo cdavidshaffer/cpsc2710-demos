@@ -1,10 +1,7 @@
-package edu.au.cpsc.customer.controller;
+package edu.au.cpsc.customer;
 
 
-import edu.au.cpsc.customer.model.Customer;
-import java.util.List;
 import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import javafx.collections.transformation.SortedList;
 import javafx.event.Event;
 import javafx.event.EventType;
@@ -13,7 +10,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 
-public class CustomerTableViewController {
+public class CustomerTableViewController  {
 
   @FXML
   private TableView<Customer> customerTableView;
@@ -23,22 +20,15 @@ public class CustomerTableViewController {
 
 
   public void initialize() {
-    nameColumn.setCellValueFactory(new PropertyValueFactory<Customer, String>("name"));
-    emailColumn.setCellValueFactory(new PropertyValueFactory<Customer, String>("email"));
-    phoneNumberColumn.setCellValueFactory(
-        new PropertyValueFactory<Customer, String>("phoneNumber"));
-    customerTableView.getSelectionModel().selectedItemProperty()
-        .addListener(c -> tableSelectionChanged());
-  }
-
-  public void showCustomerList(List<Customer> customers) {
-    ObservableList<Customer> customerList = FXCollections.observableList(customers);
-    SortedList<Customer> sortedList = new SortedList<>(customerList);
+    nameColumn.setCellValueFactory(new PropertyValueFactory<Customer,String>("name"));
+    emailColumn.setCellValueFactory(new PropertyValueFactory<Customer,String>("email"));
+    phoneNumberColumn.setCellValueFactory(new PropertyValueFactory<Customer,String>("phoneNumber"));
+    SortedList<Customer> sortedList = new SortedList<>(
+        FXCollections.observableList(Customer.demoCustomers()));
     customerTableView.setItems(sortedList);
     sortedList.comparatorProperty().bind(customerTableView.comparatorProperty());
-    customerTableView.refresh();
+    customerTableView.getSelectionModel().selectedItemProperty().addListener(c -> tableSelectionChanged());
   }
-
 
   private void tableSelectionChanged() {
     Customer selectedCustomer = customerTableView.getSelectionModel().getSelectedItem();
@@ -51,10 +41,9 @@ public class CustomerTableViewController {
 
     public static final EventType<CustomerTableEvent> ANY = new EventType<>(Event.ANY, "ANY");
 
-    public static final EventType<CustomerTableEvent> CUSTOMER_SELECTED = new EventType<>(ANY,
-        "CUSTOMER_SELECTED");
+    public static final EventType<CustomerTableEvent> CUSTOMER_SELECTED = new EventType<>(ANY, "CUSTOMER_SELECTED");
 
-    private final Customer selectedCustomer;
+    private Customer selectedCustomer;
 
     public CustomerTableEvent(EventType<? extends Event> eventType, Customer selectedCustomer) {
       super(eventType);

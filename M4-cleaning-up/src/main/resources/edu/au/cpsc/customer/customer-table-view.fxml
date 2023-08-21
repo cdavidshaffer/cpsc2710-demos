@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+
+<TableView fx:id="customerTableView" prefHeight="297.0" prefWidth="531.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.au.cpsc.customer.CustomerTableViewController">
+ <columns>
+   <TableColumn fx:id="nameColumn" editable="false" prefWidth="145.0" text="Name" />
+   <TableColumn fx:id="emailColumn" editable="false" prefWidth="141.0" text="Email" />
+   <TableColumn fx:id="phoneNumberColumn" editable="false" prefWidth="226.0" text="Phone" />
+ </columns>
+</TableView>

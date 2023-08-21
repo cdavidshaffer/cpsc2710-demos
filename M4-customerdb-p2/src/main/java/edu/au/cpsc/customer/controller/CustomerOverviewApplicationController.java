@@ -47,7 +47,7 @@ public class CustomerOverviewApplicationController {
       getCustomerDatabase().updateCustomer(customerBeingEdited);
     }
     CustomerOverviewApplication.saveCustomerDatabase();
-    customerTableViewController.updateTableContents();
+    customerTableViewController.showCustomerList(getCustomerDatabase().getCustomers());
   }
 
   private static CustomerDatabase getCustomerDatabase() {
@@ -59,8 +59,8 @@ public class CustomerOverviewApplicationController {
     if (editingNewCustomer) return;
     getCustomerDatabase().removeCustomer(customerBeingEdited);
     CustomerOverviewApplication.saveCustomerDatabase();
-    editCustomer(customerBeingEdited, true);
-    customerTableViewController.updateTableContents();
+    editCustomer(new Customer("", "", ""), true);
+    customerTableViewController.showCustomerList(getCustomerDatabase().getCustomers());
   }
 
   @FXML
