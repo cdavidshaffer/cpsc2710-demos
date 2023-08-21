@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="646e26de-8cb3-437a-a0e0-964298fb934b" name="Changes" comment="Misc additions">
-      <change afterPath="$PROJECT_DIR$/src/test/java/edu/au/cpsc/customer/CustomerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/CustomerDetailViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/CustomerDetailViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/CustomerEmailApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/CustomerEmailApplicationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/CustomerTableApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/CustomerSummaryApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/CustomerTableApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/CustomerSummaryApplicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/CustomerTableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/CustomerTableViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/customer/customer-email-app.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/customer/customer-table-app.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/customer/customer-summary-app.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M4-cleaning-up/src/test/java/edu/au/cpsc/customer/CustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-cleaning-up/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-cleaning-up/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/CustomerDetailViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/CustomerDetailViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/CustomerEmailApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/CustomerEmailApplicationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/CustomerTableApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/CustomerSummaryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/CustomerTableApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/CustomerSummaryApplicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/CustomerTableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-cleaning-up/src/main/java/edu/au/cpsc/customer/CustomerTableViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-cleaning-up/src/main/resources/edu/au/cpsc/customer/customer-email-app.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-cleaning-up/src/main/resources/edu/au/cpsc/customer/customer-table-app.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-cleaning-up/src/main/resources/edu/au/cpsc/customer/customer-summary-app.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "last_directory_selection": "/Users/shaffer/CPSC2710/Demos/M4-decoupling-and-events/src/main/java/edu/au/cpsc/decoupling",
-    "last_opened_file_path": "/Users/shaffer/CPSC2710/Demos/M4-cleaning-up",
+    "last_opened_file_path": "/Users/shaffer/CPSC2710/Demos/M4-customer-database",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",

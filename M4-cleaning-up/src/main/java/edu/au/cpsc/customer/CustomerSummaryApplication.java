@@ -6,13 +6,13 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class CustomerEmailApplication extends Application {
+public class CustomerSummaryApplication extends Application {
 
   @Override
   public void start(Stage stage) throws IOException {
-    FXMLLoader fxmlLoader = new FXMLLoader(CustomerEmailApplication.class.getResource("customer-email-app.fxml"));
+    FXMLLoader fxmlLoader = new FXMLLoader(CustomerSummaryApplication.class.getResource("customer-summary-app.fxml"));
     Scene scene = new Scene(fxmlLoader.load());
-    stage.setTitle("Customer Email App");
+    stage.setTitle("Customer Table App");
     stage.setScene(scene);
     stage.show();
   }
