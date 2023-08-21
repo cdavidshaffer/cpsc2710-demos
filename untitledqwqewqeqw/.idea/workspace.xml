@@ -5,45 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd787910-292e-4d37-948f-6f2b6c9f7258" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../M4-customerdb-p2/src/main/java/edu/au/cpsc/customer/data/CustomerDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../M4-customerdb-p2/src/main/java/edu/au/cpsc/customer/data/CustomerDatabaseIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../M4-customerdb-p2/src/test/java/edu/au/cpsc/customer/database/CustomerDatabaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../M4-customerdb-p2/src/test/java/edu/au/cpsc/customer/database/CustomerIOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/java/edu/au/cpsc/customer/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/java/edu/au/cpsc/customer/CustomerDetailEditorController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/java/edu/au/cpsc/customer/CustomerSummaryApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/java/edu/au/cpsc/customer/CustomerSummaryApplicationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/java/edu/au/cpsc/customer/CustomerTableViewController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/resources/edu/au/cpsc/customer/customer-detail-editor.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/resources/edu/au/cpsc/customer/customer-summary-app.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customerdb/src/main/resources/edu/au/cpsc/customer/customer-table-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-decoupling-and-events/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-decoupling-and-events/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb-p2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-customerdb-p2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb-p2/src/main/java/edu/au/cpsc/customer/controller/CustomerDetailViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-customerdb-p2/src/main/java/edu/au/cpsc/customer/controller/CustomerDetailViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb-p2/src/main/java/edu/au/cpsc/customer/controller/CustomerOverviewApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-customerdb-p2/src/main/java/edu/au/cpsc/customer/controller/CustomerOverviewApplicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb-p2/src/main/java/edu/au/cpsc/customer/controller/CustomerTableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-customerdb-p2/src/main/java/edu/au/cpsc/customer/controller/CustomerTableViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customerdb-p2/src/main/resources/apps/customer-overview-app.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-customerdb-p2/src/main/resources/apps/customer-overview-app.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

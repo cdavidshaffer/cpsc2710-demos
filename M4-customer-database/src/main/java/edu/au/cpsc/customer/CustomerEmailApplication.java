@@ -1,4 +1,4 @@
-package edu.au.cpsc.decoupling;
+package edu.au.cpsc.customer;
 
 import java.io.IOException;
 import javafx.application.Application;
@@ -6,13 +6,13 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class CustomerTableApplication extends Application {
+public class CustomerEmailApplication extends Application {
 
   @Override
   public void start(Stage stage) throws IOException {
-    FXMLLoader fxmlLoader = new FXMLLoader(CustomerTableApplication.class.getResource("customer-table-app.fxml"));
+    FXMLLoader fxmlLoader = new FXMLLoader(CustomerEmailApplication.class.getResource("/app/customer-email-app.fxml"));
     Scene scene = new Scene(fxmlLoader.load());
-    stage.setTitle("Customer Table App");
+    stage.setTitle("Customer Email App");
     stage.setScene(scene);
     stage.show();
   }

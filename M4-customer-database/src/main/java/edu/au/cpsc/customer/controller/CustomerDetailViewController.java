@@ -9,16 +9,16 @@ public class CustomerDetailViewController {
   @FXML
   private TextField nameField, emailField, phoneNumberField;
 
-  public void showCustomer(Customer selectedCustomer) {
-    if (selectedCustomer == null) {
+  public void showCustomer(Customer customer) {
+    if (customer == null) {
       nameField.clear();
       emailField.clear();
       phoneNumberField.clear();
       return;
     }
-    nameField.setText(selectedCustomer.getName());
-    emailField.setText(selectedCustomer.getEmail());
-    phoneNumberField.setText(selectedCustomer.getPhoneNumber());
+    nameField.setText(customer.getName());
+    emailField.setText(customer.getEmail());
+    phoneNumberField.setText(customer.getPhoneNumber());
   }
 
   public void updateCustomer(Customer customer) {
@@ -26,4 +26,5 @@ public class CustomerDetailViewController {
     customer.setEmail(emailField.getText());
     customer.setPhoneNumber(phoneNumberField.getText());
   }
+
 }

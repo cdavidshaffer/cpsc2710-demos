@@ -1,9 +1,14 @@
-package edu.au.cpsc.decoupling;
+package edu.au.cpsc.customer.controller;
 
 
+import edu.au.cpsc.customer.CustomerSummaryApplication;
+import edu.au.cpsc.customer.model.Customer;
+import java.util.List;
 import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.collections.transformation.SortedList;
 import javafx.event.Event;
+import javafx.event.EventHandler;
 import javafx.event.EventType;
 import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;
@@ -17,17 +22,20 @@ public class CustomerTableViewController  {
 
   @FXML
   private TableColumn<Customer, String> nameColumn, emailColumn, phoneNumberColumn;
-
+  private ObservableList<Customer> customers;
 
   public void initialize() {
     nameColumn.setCellValueFactory(new PropertyValueFactory<Customer,String>("name"));
     emailColumn.setCellValueFactory(new PropertyValueFactory<Customer,String>("email"));
     phoneNumberColumn.setCellValueFactory(new PropertyValueFactory<Customer,String>("phoneNumber"));
-    SortedList<Customer> sortedList = new SortedList<>(
-        FXCollections.observableList(Customer.demoCustomers()));
+    customerTableView.getSelectionModel().selectedItemProperty().addListener(c -> tableSelectionChanged());
+  }
+
+  public void showCustomers(List<Customer> customers) {
+    this.customers = FXCollections.observableArrayList(customers);
+    SortedList<Customer> sortedList = new SortedList<>(this.customers);
     customerTableView.setItems(sortedList);
     sortedList.comparatorProperty().bind(customerTableView.comparatorProperty());
-    customerTableView.getSelectionModel().selectedItemProperty().addListener(c -> tableSelectionChanged());
   }
 
   private void tableSelectionChanged() {
@@ -35,6 +43,26 @@ public class CustomerTableViewController  {
     CustomerTableEvent event = new CustomerTableEvent(CustomerTableEvent.CUSTOMER_SELECTED,
         selectedCustomer);
     customerTableView.fireEvent(event);
+  }
+
+  public void addCustomer(Customer customer) {
+    customers.add(customer);
+  }
+
+  public void refresh() {
+    customerTableView.refresh();
+  }
+
+  public void onCustomerSelected(EventHandler<CustomerTableEvent> handler) {
+    customerTableView.addEventHandler(CustomerTableEvent.CUSTOMER_SELECTED, handler);
+  }
+
+  public void removeCustomer(Customer customer) {
+    customers.remove(customer);
+  }
+
+  public void clearSelection() {
+    customerTableView.getSelectionModel().clearSelection();
   }
 
   public static class CustomerTableEvent extends Event {

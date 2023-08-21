@@ -1,6 +1,7 @@
-package edu.au.cpsc.decoupling;
+package edu.au.cpsc.customer.controller;
 
-import edu.au.cpsc.decoupling.CustomerTableViewController.CustomerTableEvent;
+import edu.au.cpsc.customer.controller.CustomerTableViewController.CustomerTableEvent;
+import edu.au.cpsc.customer.model.Customer;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
