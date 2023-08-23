@@ -4,11 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2687ed64-f3f9-4967-a9e2-087606ab907c" name="Changes" comment="Customer database" />
+    <list default="true" id="2687ed64-f3f9-4967-a9e2-087606ab907c" name="Changes" comment="Complete app start">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/data/Db.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/sampledata/CustomerGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/controller/CustomerSummaryApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/controller/CustomerSummaryApplicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/controller/CustomerTableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/controller/CustomerTableViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/data/CustomerDatabaseIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/data/CustomerDatabaseIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/customer/customer-summary-app.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/customer/customer-summary-app.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-customer-database/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-customer-database/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -29,21 +47,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/shaffer/CPSC2710/Demos/M4-customer-database/src/main/java/edu/au/cpsc/customer/sampledata&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/shaffer/CPSC2710/Demos/M4-complete-application",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/sampledata" />
@@ -53,7 +71,20 @@
       <recent name="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/customer/view" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CustomerSummaryApplication">
+    <configuration name="CustomerGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.au.cpsc.customer.sampledata.CustomerGenerator" />
+      <module name="completeapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.au.cpsc.customer.sampledata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CustomerSummaryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.au.cpsc.customer.CustomerSummaryApplication" />
       <module name="completeapp" />
@@ -70,6 +101,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.CustomerSummaryApplication" />
+        <item itemvalue="Application.CustomerGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -79,6 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Customer database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Customer database" />
+    <MESSAGE value="Complete app start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete app start" />
   </component>
 </project>

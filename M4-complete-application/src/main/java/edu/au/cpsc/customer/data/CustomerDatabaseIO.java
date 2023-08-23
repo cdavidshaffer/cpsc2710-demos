@@ -9,7 +9,6 @@ import java.io.OutputStream;
 
 public class CustomerDatabaseIO {
 
-  public static final File DEFAULT_FILE = new File("customers.dat");
 
   public static void save(CustomerDatabase database, OutputStream strm) throws IOException {
     ObjectOutputStream oos = new ObjectOutputStream(strm);

@@ -1,9 +1,10 @@
 package edu.au.cpsc.customer.model;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.Objects;
 
-public class Customer {
+public class Customer implements Serializable {
 
   public static List<Customer> demoCustomers() {
     return List.of(new Customer("Fred", "fred@bedrock.org", "555-1212"),

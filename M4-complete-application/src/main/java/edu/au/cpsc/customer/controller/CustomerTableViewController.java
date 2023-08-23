@@ -33,7 +33,7 @@ public class CustomerTableViewController  {
     SortedList<Customer> sortedList = new SortedList<>(FXCollections.observableList(customers));
     customerTableView.setItems(sortedList);
     sortedList.comparatorProperty().bind(customerTableView.comparatorProperty());
-    // TODO refresh the table
+    customerTableView.refresh();
   }
 
   public void onCustomerSelectionChanged(EventHandler<CustomerTableEvent> handler) {
@@ -45,6 +45,10 @@ public class CustomerTableViewController  {
     CustomerTableEvent event = new CustomerTableEvent(CustomerTableEvent.CUSTOMER_SELECTED,
         selectedCustomer);
     customerTableView.fireEvent(event);
+  }
+
+  public void select(Customer customer) {
+    customerTableView.getSelectionModel().select(customer);
   }
 
   public static class CustomerTableEvent extends Event {
