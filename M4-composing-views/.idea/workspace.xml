@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="646e26de-8cb3-437a-a0e0-964298fb934b" name="Changes" comment="Misc additions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/composingviews/CustomerDetailViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/composingviews/CustomerTableViewApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/composingviews/CustomerTableViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/composingviews/customer-detail-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/composingviews/customer-table-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M5-styling-application/src/main/resources/edu/au/cpsc/customer/style/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/composingviews/CustomerListViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/composingviews/CustomerListViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/composingviews/customer-list-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/composingviews/customer-list-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-listview-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-listview-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-listview-demo/src/main/java/com/example/listviewdemo/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-listview-demo/src/main/java/edu/au/cpsc/listview/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-listview-demo/src/main/java/com/example/listviewdemo/ListViewDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-listview-demo/src/main/java/edu/au/cpsc/listview/CustomerListViewApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-listview-demo/src/main/java/com/example/listviewdemo/ListViewDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-listview-demo/src/main/java/edu/au/cpsc/listview/CustomerListViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-listview-demo/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-listview-demo/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-listview-demo/src/main/resources/com/example/listviewdemo/listview-demo-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-listview-demo/src/main/resources/edu/au/cpsc/listview/customer-list-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +40,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_directory_selection": "/Users/shaffer/CPSC2710/Demos/M4-composing-views/src/main/java/edu/au/cpsc/composingviews",
-    "last_opened_file_path": "/Users/shaffer/CPSC2710/Demos/M4-composing-views/src/main/resources/edu/au/cpsc/composingviews",
+    "last_opened_file_path": "/Users/shaffer/CPSC2710/Demos/M4-composing-views",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,7 +55,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/edu/au/cpsc/composingviews" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CustomerTableViewApplication">
+  <component name="RunManager" selected="Application.CustomerListViewApplication">
     <configuration name="CustomerListViewApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.au.cpsc.composingviews.CustomerListViewApplication" />
       <module name="composingviews" />
@@ -108,8 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CustomerTableViewApplication" />
         <item itemvalue="Application.CustomerListViewApplication" />
+        <item itemvalue="Application.CustomerTableViewApplication" />
       </list>
     </recent_temporary>
   </component>

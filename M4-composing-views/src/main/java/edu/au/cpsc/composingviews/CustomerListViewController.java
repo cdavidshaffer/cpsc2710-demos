@@ -11,9 +11,6 @@ import javafx.scene.paint.Color;
 public class CustomerListViewController {
 
   @FXML
-  private GridPane formGrid;
-
-  @FXML
   private ListView<Customer> personList;
 
   @FXML
