@@ -5,16 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2687ed64-f3f9-4967-a9e2-087606ab907c" name="Changes" comment="Complete app start">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/data/Db.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/sampledata/CustomerGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M5-selectors-demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M5-selectors-demo/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M5-selectors-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M5-selectors-demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M5-selectors-demo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M5-selectors-demo/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M5-selectors-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M5-selectors-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M5-selectors-demo/src/main/resources/edu/au/cpsc/selectorsdemo/style/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/controller/CustomerSummaryApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/controller/CustomerSummaryApplicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/controller/CustomerTableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/controller/CustomerTableViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/data/CustomerDatabaseIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/data/CustomerDatabaseIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/customer/customer-summary-app.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/customer/customer-summary-app.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../M4-customer-database/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-customer-database/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-composing-views/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-composing-views/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M4-tableview-demo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M4-tableview-demo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-css-selector-demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-css-selector-demo/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-css-selector-demo/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-css-selector-demo/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-css-selector-demo/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-css-selector-demo/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-css-selector-demo/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-css-selector-demo/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-css-selector-demo/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-css-selector-demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-css-selector-demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-css-selector-demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-css-selector-demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-css-selector-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-css-selector-demo/src/main/java/edu/au/cpsc/cssselectordemo/CssSelectorDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-css-selector-demo/src/main/java/edu/au/cpsc/cssselectordemo/CssSelectorDemoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-css-selector-demo/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-css-selector-demo/src/main/resources/edu/au/cpsc/cssselectordemo/css-selector-demo-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-css-selector-demo/src/main/resources/edu/au/cpsc/cssselectordemo/shapes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-first-styling/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M5-first-styling/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-first-styling/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M5-first-styling/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-first-styling/src/main/java/edu/au/cpsc/firststyling/FirstStylingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../M5-first-styling/src/main/java/edu/au/cpsc/firststyling/FirstStylingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-first-styling/src/main/resources/edu/au/cpsc/firststyling/first-styling-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../M5-first-styling/src/main/resources/edu/au/cpsc/firststyling/first-styling-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-first-styling/src/main/resources/edu/au/cpsc/firststyling/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../M5-first-styling/src/main/resources/edu/au/cpsc/firststyling/style/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitledqwqewqeqw/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitledqwqewqeqw/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitledqwqewqeqw/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitledqwqewqeqw/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitledqwqewqeqw/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitledqwqewqeqw/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitledqwqewqeqw/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitledqwqewqeqw/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitledqwqewqeqw/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitledqwqewqeqw/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitledqwqewqeqw/src/test/java/org/example/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +95,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "advanced.settings",
+    "settings.editor.selected.configurable": "preferences.general",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>

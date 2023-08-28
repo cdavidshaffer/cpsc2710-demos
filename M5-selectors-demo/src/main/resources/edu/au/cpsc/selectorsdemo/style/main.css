@@ -1,0 +1,44 @@
+/* this is a comment :) */
+/*
+ * This style sheet produces an ugly application.  It is simple here to demonstrate selectors.
+ */
+
+Rectangle {
+  -fx-fill: red;
+}
+
+#second-button {
+  -fx-font-size: 32pt;
+}
+
+.large {
+  -fx-font-size: 24pt;
+}
+
+.bordered {
+  -fx-border-width: 10px;
+  -fx-border-color: black;
+}
+
+.root {
+  -fx-background-color: yellow;
+}
+
+#bottom-row > Label {
+  -fx-font-family: monospace;
+}
+
+#bottom-row Label {
+  -fx-border-width: 2px;
+  -fx-border-color: black;
+}
+
+:hover {
+  -fx-fill: white;
+  -fx-background-color: blue;
+}
+
+.button:cancel {
+  -fx-border-width: 7px;
+  -fx-border-color: green;
+}
