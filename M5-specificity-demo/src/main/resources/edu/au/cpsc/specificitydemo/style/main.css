@@ -1,0 +1,26 @@
+/* a = 1, b = 0, c = 0
+ * This takes precedence even though it is later in the file because
+ * its specificity score is higher.
+ */
+#label1 {
+  -fx-background-color: red;
+}
+
+/*
+ * a = 0, b = 1, c = 0
+ */
+.label {
+  -fx-background-color: green;
+}
+
+/* a = 0, b = 0, c = 1
+ *
+ * This has lower specificity than .label, which matches the same elements
+ * as this selector, so this rule is never used.
+ */
+Label {
+  -fx-background-color: blue;
+  -fx-font-family: monospace;
+  -fx-font-size: 24pt;
+}
+

@@ -1,7 +1,3 @@
 Rectangle {
-  -fx-fill: blue;
-}
-
-Button {
-  -fx-background-color: green;
+  -fx-fill: green;
 }

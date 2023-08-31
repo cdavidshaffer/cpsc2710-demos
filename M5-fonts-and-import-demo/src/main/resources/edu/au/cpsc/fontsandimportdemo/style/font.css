@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico");
+
+/* Local version -- uncomment if you want to see the fonts loaded from a project resource file
+@font-face {
+  font-family: "Heebo";
+  src: url(../font/Heebo-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Pacifico";
+  src: url(../font/Pacifico-Regular.ttf);
+}
+*/
+
+#label1 {
+  -fx-font-family: "Heebo";
+  -fx-font-size: 42pt;
+}
+
+#label2 {
+  -fx-font-family: "Pacifico";
+  -fx-font-size: 42pt;
+}

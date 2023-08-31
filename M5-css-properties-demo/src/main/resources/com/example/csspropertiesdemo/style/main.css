@@ -1,0 +1,35 @@
+Rectangle {
+  -fx-arc-height: 100px;
+  -fx-arc-width: 150px;
+  -fx-stroke: red;
+  -fx-stroke-width: 5px;
+  -fx-stroke-type: inside;
+}
+
+Circle {
+  -fx-stroke: rgb(255, 150, 150);
+  -fx-stroke-width: 5px;
+}
+
+#left-circle {
+  -fx-stroke-type: inside;
+  -fx-fill: blue;
+}
+
+#right-circle {
+  -fx-stroke-type: outside;
+  -fx-fill: green;
+  -fx-opacity: 0.5;
+}
+
+.btn-copy {
+  -fx-graphic: url(../img/copy.png);
+}
+
+.btn-paste {
+  -fx-graphic: url(../img/paste.png);
+}
+
+.btn-cut {
+  -fx-graphic: url(../img/scissors.png);
+}

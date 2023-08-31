@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
 
-<VBox alignment="CENTER" spacing="20.0" stylesheets="@app.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.2-ea" fx:controller="edu.au.cpsc.fontsandimportdemo.FontsAndImportController">
+<VBox alignment="CENTER" prefHeight="250.0" prefWidth="563.0" spacing="20.0" stylesheets="@style/main.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.au.cpsc.fontsandimportdemo.FontsAndImportController">
   <padding>
     <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
   </padding>
 
-  <Label fx:id="label1" text="This is a label" />
-   <Label fx:id="label2" text="This is another label" />
+  <Label id="label1" fx:id="label1" text="This is a label" />
+   <Label id="label2" fx:id="label2" text="This is another label" />
 </VBox>
