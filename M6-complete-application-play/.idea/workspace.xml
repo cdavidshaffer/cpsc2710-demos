@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2687ed64-f3f9-4967-a9e2-087606ab907c" name="Changes" comment="Complete app start">
+      <change afterPath="$PROJECT_DIR$/../M6-complete-application/src/main/java/edu/au/cpsc/customer/model/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-complete-application/src/main/java/edu/au/cpsc/customer/uimodel/CustomerDetailModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-derived-properties/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-derived-properties/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-derived-properties/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-derived-properties/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-derived-properties/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-derived-properties/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-derived-properties/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-derived-properties/src/main/java/edu/au/cpsc/derivedproperties/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-first-properties-demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-first-properties-demo/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-first-properties-demo/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-first-properties-demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-first-properties-demo/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-first-properties-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-first-properties-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-first-properties-demo/src/main/java/edu/au/cpsc/firstpropertiesdemo/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-node-properties-demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-node-properties-demo/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-node-properties-demo/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-node-properties-demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-node-properties-demo/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-node-properties-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-node-properties-demo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M6-node-properties-demo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/main/java/edu/au/cpsc/customer/CustomerSummaryApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/main/java/edu/au/cpsc/customer/controller/CustomerDetailViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/main/java/edu/au/cpsc/customer/controller/CustomerSummaryApplicationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/main/java/edu/au/cpsc/customer/controller/CustomerTableViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/main/java/edu/au/cpsc/customer/data/CustomerDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/main/java/edu/au/cpsc/customer/data/CustomerDatabaseIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/main/java/edu/au/cpsc/customer/data/Db.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/main/java/edu/au/cpsc/customer/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/main/java/edu/au/cpsc/customer/sampledata/CustomerGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/main/resources/edu/au/cpsc/customer/customer-summary-app.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/main/resources/edu/au/cpsc/customer/font/ChakraPetch-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/main/resources/edu/au/cpsc/customer/font/PTSansNarrow-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/main/resources/edu/au/cpsc/customer/font/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/main/resources/edu/au/cpsc/customer/font/Rubik-VariableFont_wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/main/resources/edu/au/cpsc/customer/style/dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/main/resources/edu/au/cpsc/customer/style/light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/main/resources/edu/au/cpsc/customer/style/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/main/resources/edu/au/cpsc/customer/view/customer-detail-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/main/resources/edu/au/cpsc/customer/view/customer-table-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-style-play/src/test/java/edu/au/cpsc/customer/CustomerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M5-complete-app-with-style/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M5-complete-app-with-style/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M6-observable/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M6-observable/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../M6-textbook-properties-demo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../M6-textbook-properties-demo/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2UJ0Fp346JPifsVmHrwZWN01WOK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/shaffer/CPSC2710/Demos/M6-complete-application-play",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.general",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="edu.au.cpsc.customer.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/sampledata" />
+      <recent name="$PROJECT_DIR$/src/main/java/edu/au/cpsc/customer/data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/customer/font" />
+      <recent name="$PROJECT_DIR$/src/main/resources/edu/au/cpsc/customer/view" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CustomerSummaryApplication">
+    <configuration name="CustomerGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.au.cpsc.customer.sampledata.CustomerGenerator" />
+      <module name="completeapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.au.cpsc.customer.sampledata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerSummaryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.au.cpsc.customer.CustomerSummaryApplication" />
+      <module name="completeapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.au.cpsc.customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="M6-complete-application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="M6-complete-application" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CustomerSummaryApplication" />
+        <item itemvalue="Application.CustomerGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Customer database" />
+    <MESSAGE value="Complete app start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete app start" />
+  </component>
+</project>
