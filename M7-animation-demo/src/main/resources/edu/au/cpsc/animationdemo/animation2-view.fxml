@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Ellipse?>
+
+
+<VBox alignment="CENTER" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.au.cpsc.animationdemo.Animation2Controller">
+   <children>
+      <AnchorPane prefHeight="300.0" prefWidth="300.0">
+         <children>
+            <Ellipse fx:id="ellipse" fill="DODGERBLUE" layoutX="150.0" layoutY="139.0" radiusX="150.0" radiusY="80.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </AnchorPane>
+      <Button mnemonicParsing="false" onAction="#goButtonAction" text="Go" />
+   </children>
+</VBox>
