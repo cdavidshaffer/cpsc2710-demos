@@ -6,7 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class Animation4Application extends Application {
+public class Animation5Application extends Application {
 
   public static void main(String[] args) {
     launch(args);
@@ -14,9 +14,9 @@ public class Animation4Application extends Application {
 
   @Override
   public void start(Stage primaryStage) throws IOException {
-      FXMLLoader fxmlLoader = new FXMLLoader(Animation1Application.class.getResource("animation4-view.fxml"));
+      FXMLLoader fxmlLoader = new FXMLLoader(Animation1Application.class.getResource("animation5-view.fxml"));
       Scene scene = new Scene(fxmlLoader.load());
-      primaryStage.setTitle("Animation 4");
+      primaryStage.setTitle("Animation 5");
       primaryStage.setScene(scene);
       primaryStage.show();
   }

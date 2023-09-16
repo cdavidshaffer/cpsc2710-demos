@@ -16,7 +16,7 @@ public class Animation2Controller {
     RotateTransition rotateTransition = new RotateTransition(Duration.millis(3000), ellipse);
     rotateTransition.setFromAngle(0);
     rotateTransition.setToAngle(360);
-    rotateTransition.setInterpolator(Interpolator.LINEAR);
+    rotateTransition.setInterpolator(Interpolator.EASE_BOTH);
     rotateTransition.playFromStart();
   }
 

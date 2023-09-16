@@ -4,6 +4,7 @@ import javafx.animation.FadeTransition;
 import javafx.animation.Interpolator;
 import javafx.animation.ParallelTransition;
 import javafx.animation.RotateTransition;
+import javafx.animation.SequentialTransition;
 import javafx.fxml.FXML;
 import javafx.scene.shape.Ellipse;
 import javafx.util.Duration;
@@ -24,9 +25,9 @@ public class Animation3Controller {
     fadeTransition.setToValue(0.0);
     fadeTransition.setAutoReverse(true);
     fadeTransition.setCycleCount(2);
-    ParallelTransition parallelTransition = new ParallelTransition();
-    parallelTransition.getChildren().addAll(rotateTransition, fadeTransition);
-    parallelTransition.playFromStart();
+    SequentialTransition seq = new SequentialTransition();
+    seq.getChildren().addAll(rotateTransition, fadeTransition);
+    seq.playFromStart();
   }
 
 }

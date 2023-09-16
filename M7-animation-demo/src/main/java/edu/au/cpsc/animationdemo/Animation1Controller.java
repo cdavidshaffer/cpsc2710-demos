@@ -12,7 +12,7 @@ public class Animation1Controller {
 
   @FXML
   protected void onFadeAction() {
-    FadeTransition fade = new FadeTransition(Duration.millis(1000), helloWorldLabel);
+    FadeTransition fade = new FadeTransition(Duration.millis(100), helloWorldLabel);
     fade.setFromValue(1.0);
     fade.setToValue(0.0);
     fade.setCycleCount(4);

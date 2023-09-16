@@ -5,10 +5,10 @@
 <?import javafx.scene.layout.VBox?>
 
 
-<VBox spacing="5.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.au.cpsc.multiwindow.windowcontroller.LauncherApplicationController">
+<VBox spacing="5.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.au.cpsc.multiwindow.controller.LauncherApplicationController">
    <children>
       <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#customerEditorAction" text="Customer Editor" />
-      <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#customerAlertsAction" text="Customer Alerts" />
+      <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#customerWithPopupAction" text="Customer With Popup" />
       <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#accountsReceivableAction" text="Accounts Receivable" />
    </children>
    <padding>

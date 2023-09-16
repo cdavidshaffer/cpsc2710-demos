@@ -3,7 +3,7 @@
 <?import javafx.scene.layout.BorderPane?>
 
 <BorderPane xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1"
-  fx:controller="edu.au.cpsc.multiwindow.windowcontroller.CustomerTableWithEditorApplicationController">
+  fx:controller="edu.au.cpsc.multiwindow.controller.CustomerTableWithEditorApplicationController">
   <bottom>
     <fx:include fx:id="customerDetailEditor" source="../views/customer-detail-editor.fxml"/>
   </bottom>

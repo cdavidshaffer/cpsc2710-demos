@@ -1,28 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.SplitPane?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 
-
-<SplitPane fx:id="splitPane" dividerPositions="0.29545454545454547, 0.6287878787878788" prefHeight="160.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.au.cpsc.animationdemo.Animation4Controller">
-  <items>
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.au.cpsc.animationdemo.Animation4Controller">
+   <children>
       <VBox prefHeight="200.0" prefWidth="100.0">
          <children>
-            <Button minWidth="0.0" mnemonicParsing="false" text="Button" />
-            <Button minWidth="0.0" mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" onAction="#inButtonAction" text="In" />
+            <Button mnemonicParsing="false" onAction="#outButtonAction" text="Out" />
          </children>
       </VBox>
-      <VBox prefHeight="200.0" prefWidth="100.0">
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="100.0">
          <children>
-            <Button mnemonicParsing="false" text="Button" />
-            <Button mnemonicParsing="false" onAction="#goButtonAction" text="Button" />
+            <Button fx:id="topButton" mnemonicParsing="false" text="Top" translateX="100.0" />
+            <Button fx:id="middleButton" mnemonicParsing="false" text="Middle" translateX="100.0" />
+            <Button fx:id="bottomButton" mnemonicParsing="false" text="Bottom" translateX="100.0" />
          </children>
       </VBox>
-      <VBox prefHeight="200.0" prefWidth="100.0">
-         <children>
-            <Button minWidth="0.0" mnemonicParsing="false" text="Button" />
-         </children>
-      </VBox>
-  </items>
-</SplitPane>
+   </children>
+</HBox>
